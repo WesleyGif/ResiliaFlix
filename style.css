@@ -1,0 +1,85 @@
+header {
+    background: black;
+    padding: 20px 0;
+}
+
+.nomeLogo h1{
+    position: relative;
+    font-family: 'DM Serif Display', serif;
+    color: yellow;
+    font-size: 50px;
+    margin: 0 0 0 40px;
+}
+
+.menu {
+    position: absolute;
+    top: 41px;
+    left: 310px; 
+}
+
+.menu li {
+    display: inline;
+    padding: 0 0 0 5px;
+}
+
+.menu a {
+    font-weight: bold; /* Deixa fonte em negrito */
+    text-transform: uppercase;
+    text-decoration: none; /*tira o sublinhado */
+    font-size: 15px; /* tamnaho da fonte */
+    color: yellow;
+}
+
+/* MEIO DO SITE */
+
+main {
+    background: rgb(51, 49, 49);
+    font-family: 'DM Serif Display', serif;
+    width: 0 auto;
+    padding: 30px 0 0 10px;
+}
+
+.genero {
+    font-size:25px;
+    margin: 25px 0 15px 35px;
+    color: white;
+}
+.movie {
+    margin: 35px 0 0 0;
+}
+.movie a {
+    display: inline;
+}
+
+
+.tamanho {
+    border-radius: 10px;
+    width: 265px;
+    height: 150px;
+}
+/*.tamanho:hover {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+ } */
+
+
+/* FIM DA PAGINA */
+
+footer {
+    text-align: center;
+    background: black;
+    padding: 10px 0 2px 0;
+}
+
+.titulo-Fim {
+    font-family: 'DM Serif Display', serif;
+    color: yellow;
+    font-size: 25px;
+}
+
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin: 10px ;
+}
